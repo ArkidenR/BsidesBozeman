@@ -1,0 +1,351 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  background-color: white;
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  flex-grow: 1;
+}
+
+.BackRoundF {
+
+  background-color: darkblue;
+}
+
+
+.NavbarBG {
+  background-color: #ffcc3e;
+
+  color: darkblue;
+}
+
+.MSUBlue {
+  color: darkblue;
+}
+
+
+.heroS {
+  padding: 10px 10px 10px 10px;
+
+  justify-content: center;
+
+  text-align: center;
+}
+
+.heroS h1 {
+
+  font-size: 26px;
+}
+
+
+.AboutT {
+  padding: 10px 10px 10px 10px;
+
+  justify-content: center;
+
+  text-align: center;
+}
+
+.AboutT h1 {
+
+  font-size: 26px;
+}
+
+.AboutM {
+
+  padding: 25px 25px 25px 25px;
+
+  justify-content: center;
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+
+
+  border: solid black 2px;
+
+  text-align: center;
+
+}
+
+
+
+.VenueT {
+  padding: 10px 10px 10px 10px;
+
+  justify-content: center;
+
+  text-align: center;
+
+}
+
+.VenueT h1 {
+  font-size: 26px;
+}
+
+.VenueC {
+
+  padding: 25px 25px 25px 25px;
+
+  justify-content: center;
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+
+
+  border: solid black 2px;
+
+  text-align: center;
+
+}
+
+
+.VenueImg {
+  padding: 25px 25px 25px 25px;
+
+  border: solid black 2px;
+
+  text-align: center;
+
+  justify-content: center;
+
+
+  max-height: 250px;
+  max-width: 500px;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+
+}
+
+.STtop {
+  padding: 10px 10px 10px 10px;
+
+  justify-content: center;
+
+  text-align: center;
+
+}
+
+.STtop h1 {
+  font-size: 26px;
+}
+
+
+.STsesh {
+
+  padding: 25px 25px 25px 25px;
+
+  justify-content: center;
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+
+
+  border: solid black 2px;
+
+  text-align: center;
+
+
+}
+
+
+.SponT {
+  padding: 10px 10px 10px 10px;
+
+  justify-content: center;
+
+  text-align: center;
+
+}
+
+.SponT h1{
+
+  font-size: 26px;
+
+}
+
+.SponInf {
+
+  padding: 25px 25px 25px 25px;
+
+  justify-content: center;
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+
+
+  border: solid black 2px;
+
+  text-align: center;
+
+}
+
+.SponC {
+  padding: 25px 25px 25px 25px;
+
+  border: solid black 2px;
+
+  text-align: center;
+
+  justify-content: center;
+
+
+  max-height: 250px;
+  max-width: 500px;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+
+}
+
+.TickT {
+  padding: 10px 10px 10px 10px;
+
+  justify-content: center;
+
+  text-align: center;
+}
+
+.TickT h1 {
+  font-size: 26px;
+
+}
+
+
+
+.HeroCon {
+  padding: 25px 25px 25px 25px;
+
+  justify-content: center;
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+
+
+  border: solid black 2px;
+
+  text-align: center;
+
+}
+
+.HeroImg2 {
+  padding: 25px 25px 25px 25px;
+
+  border: solid black 2px;
+
+  text-align: center;
+
+  justify-content: center;
+
+
+  max-height: 250px;
+  max-width: 500px;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+
+}
+
+.HeroDs {
+
+  padding: 25px 25px 25px 25px;
+
+  justify-content: center;
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+
+
+  border: solid black 2px;
+
+  text-align: center;
+}
+
+
+.FooterBg {
+  background-color: #ffcc3e;
+
+}
